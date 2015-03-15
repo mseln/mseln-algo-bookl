@@ -2,7 +2,7 @@
 // Author:  Magnus Selin
 // Updated: 2015-03-15
 
-#include <iostream> 
+#include <iostream>
 #include <sstream>
 #include <cstdlib>
 #include <cstdio>
