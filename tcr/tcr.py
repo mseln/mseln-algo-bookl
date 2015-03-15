@@ -86,7 +86,7 @@ content = ''
 with open('tcr_header.tex','r') as f:
     content += f.read()
 
-exclude = set(['tcr'])
+exclude = set(['tcr', '.git'])
 for root, dirs, files in os.walk('..', topdown=True):
     dirs[:] = [d for d in dirs if d not in exclude]
     for name in files:
