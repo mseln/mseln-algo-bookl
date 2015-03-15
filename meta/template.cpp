@@ -40,7 +40,6 @@ bool solve(){
 int main(){
 	int tc=1; //scanf("%d", &tc);
 	rep(i, 0, tc) solve();
-    vi a;
 
 	return 0;
 }
