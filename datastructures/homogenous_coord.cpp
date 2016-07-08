@@ -15,7 +15,7 @@ class h{
         h(T a, T d1, T b, T d2, T c){x=a*d2; y=b*d1; z=c*d1*d2;}
         h(){}
 
-        h<T> operator*(h o){ return h<T>(y*o.z-o.y*z, z*o.x-o.z*x, o.x*y-x*o.y);}
+        h<T> operator*(h o){ return h<T>(y*o.z-o.y*z, z*o.x-o.z*x, o.x*y-x*o.y); }
 
         h<T> norm(){
             if(z!=0){
